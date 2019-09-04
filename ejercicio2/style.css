@@ -12,7 +12,7 @@ body{
 
 
 header{
-    background-color: aqua;
+    background-color: coral;
     height: 5vh;
 }
 
@@ -23,7 +23,15 @@ main{
     flex-direction: row;
 }
 
+.item{
+    background-color: hotpink;
+    width: 50%;
+}
 
+.item2{
+    background-color: dodgerblue;
+    width: 50%;
+}
 
 
 footer{
