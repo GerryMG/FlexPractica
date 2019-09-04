@@ -1,0 +1,45 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header{
+    background-color: aqua;
+    height: 5vh;
+}
+
+main{
+    background-color: aquamarine; 
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.iz{
+    background-color: black;
+    width: 33.33%;
+}
+
+.ce{
+    background-color: azure;
+    width: 33.33%;
+}
+.de{
+    background-color: rgb(89, 99, 3);
+    width: 33.33%;
+}
+
+footer{
+    height: 5vh;
+    background-color: brown;
+}
+
+
